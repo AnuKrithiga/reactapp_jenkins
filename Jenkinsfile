@@ -3,6 +3,6 @@ node {
         git 'https://github.com/AnuKrithiga/reactapp_jenkins'
     }
     stage ('npm test'){
-        sh 'npm start'
+        sh 'npm test'
     }
 }
